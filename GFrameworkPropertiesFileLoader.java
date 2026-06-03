@@ -16,7 +16,7 @@ import java.util.MissingResourceException;
 import java.util.Properties;
 
 /**
- * Œ³XGFrameworkProperties‚É‚ ‚éuge-framework.propertiesv‚Ì“Ç‚İ‚Şˆ—‚ÍA‚±‚±‚ÉØ‚èo‚µ‚Ü‚·.<br>
+ * å…ƒã€…GFrameworkPropertiesã«ã‚ã‚‹ã€Œge-framework.propertiesã€ã®èª­ã¿è¾¼ã‚€å‡¦ç†ã¯ã€ã“ã“ã«åˆ‡ã‚Šå‡ºã—ã¾ã™.<br>
  *
  * @create 2026.06.03
  * @author KCSS yangfeng
@@ -24,7 +24,7 @@ import java.util.Properties;
  */
 public class GFrameworkPropertiesFileLoader {
 	
-	/** importƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹ƒL[–¼ */
+	/** importãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«ã‚­ãƒ¼å */
 	private static final String IMPORT_FILE_KEY = "@import.File";
 	
 	public static Properties getProperties() {
@@ -45,10 +45,10 @@ public class GFrameworkPropertiesFileLoader {
 	}
 	
 	/**
-	 * ƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹î•ñ‚ğ“Ç‚İ‚İ‚Ü‚·.
+	 * ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±ã‚’èª­ã¿è¾¼ã¿ã¾ã™.
 	 * 
 	 * @create 2007/01/24
-	 * @throws MissingResourceException ƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚ç‚È‚¢ê‡
+	 * @throws MissingResourceException ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚‰ãªã„å ´åˆ
 	 * @author kitamura
 	 * @since 3.0.0
 	 */
@@ -75,18 +75,18 @@ public class GFrameworkPropertiesFileLoader {
 				}
 			}
 		}
-		// ’Ç‰ÁƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹“Ç
+		// è¿½åŠ ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«èª­è¾¼
 		loadImportProperty(properties);
 
 		return properties;
 	}
 	
 	/**
-	 * ’Ç‰ÁƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹î•ñ‚ğ“Ç‚İ‚İ‚Ü‚·B
+	 * è¿½åŠ ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«æƒ…å ±ã‚’èª­ã¿è¾¼ã¿ã¾ã™ã€‚
 	 * 
 	 * @create 2013/04/17
-	 * @param properties ƒvƒƒpƒeƒB
-	 * @throws MissingResourceException ƒvƒƒpƒeƒBƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚ç‚È‚¢ê‡
+	 * @param properties ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£
+	 * @throws MissingResourceException ãƒ—ãƒ­ãƒ‘ãƒ†ã‚£ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚‰ãªã„å ´åˆ
 	 * @author Saiga
 	 * @since 3.0.0
 	 */
